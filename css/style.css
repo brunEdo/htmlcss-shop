@@ -4,10 +4,30 @@
     margin: 0;
 }
 
+/* pagination */
+.row {
+    width: 80%;
+    margin: 8px auto;
+}
+
+.product {
+    display: inline-block;
+    width: calc(33% - 6px);
+    margin-right: 9px;
+}
+
+.product:last-child {
+    margin-right: unset;
+}
+
 
 /* container for images and tags */
 .images {
     position: relative;
+}
+
+img {
+    width: 100%;
 }
 
 /* image hover effect  */
