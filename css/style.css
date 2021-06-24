@@ -3,3 +3,21 @@
     padding: 0;
     margin: 0;
 }
+
+
+/* container for images and tags */
+.images {
+    position: relative;
+}
+
+/* image hover effect  */
+.second-img {
+    display: none;
+}
+.images:hover .first-img {
+    display: none;
+}
+.images:hover .second-img {
+    display: unset;
+}
+
