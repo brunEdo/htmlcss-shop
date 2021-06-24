@@ -56,3 +56,22 @@ img {
     text-align: center;
     vertical-align: middle;
 }
+
+.tags {
+    position: absolute;
+    bottom: 20px;
+
+    color: white;
+}
+
+.tags span {
+    padding: 4px;
+}
+
+.red-tag {
+    background-color: #EB0037;
+}
+
+.green-tag {
+    background-color: #00875A;
+}
